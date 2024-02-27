@@ -28,10 +28,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-/*I am going straight to hell for this*/
-nav {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: auto;
-    text-align: center;
-}
