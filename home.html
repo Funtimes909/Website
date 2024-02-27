@@ -1,17 +1,17 @@
 <!DOCTYPE html>
+<title>Funtimes909's Website</title>
 <html>
 <head>
-    <title>Funtimes909's Website</title>
     <!--favion-->
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 <body>
     <h1>Welcome to my website</h1>
-    <div>
-        <button class="button" href="home.html">Home</button>
-        <button class="button" href="contact.html">Contact</button>
-        <button class="button" href="about.html">About</button>
-        <button class="button-blog">Blog</button>
-    </div>
+    <nav>
+        <button class="button" onclick="location.href='home.html';">Home</button>
+        <button class="button" onclick="location.href='contact.html';">Contact</button>
+        <button class="button" onclick="location.href='about.html';">About</button>
+    </nav>
+    <img src="images/impact-font.png"></img>
 </body>
     <style>
         /*Styling*/
@@ -45,8 +45,17 @@
             background-color: #0056b3;
         }
     
-        button-blog:hover {
-            background-color: #0056b3;
+        nav {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: auto;
+            text-align: center;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
         }
 
     </style>
