@@ -1,75 +1,78 @@
 <!DOCTYPE html>
-<title>Funtimes909's Website</title>
 <html>
-<head>
- <body>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <head>
+        <title>Funtimes909's Website</title>
+        <!--favion-->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+        <style>
+            /*Styling*/
+            @keyframes rainbow {
+                0% { color: white; }
+                33.33% { color: palevioletred; }
+                66.67% { color: lightblue; }
+            }
+    
+            h1 {
+                animation: rainbow 8s infinite;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin: auto;
+                text-align: center;
+                padding: 16px;
+            }
+            
+            button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                text-decoration: none;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+    
+            button:hover {
+                background-color: #0056b3;
+            }
+    
+            /*I am going straight to hell for this*/
+            nav {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin: auto;
+                text-align: center;
+            }
+    
+            div {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin: auto;
+                text-align: center;
+            }
+        </style>
+    </head>
         
-        <span id="contacts">
+    <span id="contacts">
         <h1>There are a few ways you can get in contact with me</h1>
         <nav>
             <button class="button" onclick="location.href='home.html';">Home</button>
             <button class="button" onclick="location.href='contact.html';">Contact</button>
             <button class="button" onclick="location.href='about.html';">About</button>
         </nav>
-            <div>
-                <img src="images/discord.png" width="16" height="16">
-                <a href="https://discord.com/users/652755888230236160">Discord</a> (preferred)
-            </div><div> 
-                <img src="images/mastodon.ico" width="16" height="16">
-                <a href="https://wetdry.world/@Funtimes909">Fedi</a>
-            </div><div>
-                <img src="images/reddit.png" width="16" height="16">
-                <a href="https://www.reddit.com/user/Funtimes909/">Reddit</a>
-            </div><div>
-                <img src="images/github.svg" width="16" height="16">
-                <a href="https://www.github.com/Funtimes909/">GitHub</a>
-            </div>
-        </span>
-    <style>
-        /*Styling*/
-        @keyframes rainbow {
-            0% { color: white; }
-            33.33% { color: palevioletred; }
-            66.67% { color: lightblue; }
-        }
-
-        h1 {
-            animation: rainbow 8s infinite;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            margin: auto;
-            text-align: center;
-            padding: 16px;
-        }
-        
-        button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        /*I am going straight to hell for this*/
-        nav {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            margin: auto;
-            text-align: center;
-        }
-
-        div {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            margin: auto;
-            text-align: center;
-        }
-    </style>
- </body>
-</head>
+        <div>
+            <img src="images/discord.png" width="16" height="16">
+            <a href="https://discord.com/users/652755888230236160">Discord</a> (preferred)
+        </div><div> 
+            <img src="images/mastodon.ico" width="16" height="16">
+            <a href="https://wetdry.world/@Funtimes909">Fedi</a>
+        </div><div>
+            <img src="images/reddit.png" width="16" height="16">
+            <a href="https://www.reddit.com/user/Funtimes909/">Reddit</a>
+        </div><div>
+            <img src="images/github.svg" width="16" height="16">
+            <a href="https://www.github.com/Funtimes909/">GitHub</a>
+        </div>
+    </span>
+    
+</body>
+</html>
