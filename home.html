@@ -10,7 +10,9 @@
         <button class="button" href="home.html">Home</button>
         <button class="button" href="contact.html">Contact</button>
         <button class="button" href="about.html">About</button>
-        <button class="button-blog">Blog</button>
+        <button class="blog-button">Blog
+            <span class="blog-tooltip">This is a tooltip</span>
+          </button>
     </div>
 </body>
     <style>
@@ -45,8 +47,32 @@
             background-color: #0056b3;
         }
     
-        button-blog:hover {
-            background-color: #0056b3;
+        .blog-button .blog-tooltip {
+            visibility: hidden;
+            width: 120px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .blog-button:hover .blog-tooltip {
+            visibility: visible;
+            opacity: 1
+        }
+
+        div {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: auto;
+            text-align: center;
         }
 
     </style>
