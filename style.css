@@ -1,8 +1,9 @@
 /*Styling*/
 @keyframes rainbow {
     0% { color: white; }
-    33.33% { color: palevioletred; }
-    66.67% { color: lightblue; }
+    33.33% { color: rgb(211, 80, 205); }
+    66.67% { color: rgb(114, 194, 221); }
+    100% { color: white; }
 }
 
 h1 {
@@ -17,13 +18,34 @@ button {
     display: inline-block;
     padding: 10px 30px;
     background-color: #4495ec;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     border: none;
-    border-radius: 0px;
+    border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #2467af;
+}
+
+#navicon {
+    padding-left: 10px;
+    padding-right: 5px;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.nav-bar {
+    background-color: #161515;
+    overflow: hidden;
+    margin: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    vertical-align: middle;
+    alig
 }

@@ -8,12 +8,10 @@
         <link rel="stylesheet" href="style.css">
         <style>
             /*Styling*/
-            img {
+            .meme {
                 display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%;
-                padding: 128px
+                margin: auto;
+                padding: 128px;
             }
 
         </style>
@@ -21,11 +19,12 @@
     
     <body>
         <h1>Welcome to my website</h1>
-        <nav>
+        <nav class="nav-bar">
+            <img id="navicon" src="images/favicon.ico" onclick="location.href='home.html';">
             <button class="button" onclick="location.href='home.html';">Home</button>
             <button class="button" onclick="location.href='contact.html';">Contact</button>
-            <button class="button" onclick="location.href='about.html';">About</button>
+            <button class="button" onclick="location.href='about.html';">About Me</button>
         </nav>
-        <img src="images/impact-font.png"></img>
+        <img src="images/impact-font.png" class="meme"></img>
     </body>
 </html>

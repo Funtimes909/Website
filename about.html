@@ -19,55 +19,41 @@
                 padding: 16x;
             }
 
-            .nav-bar {
-                background-color: #161515;
-                overflow: hidden;
-                margin: center;
-                padding-bottom: 15px;
-                padding-top: 15px;
-            }
-
             .text {
                 list-style-type: none;
-                margin: 50;
-                padding: 50; 
+                margin: 25px;
+                padding: 10px;
             }
-
-            .navicon {
-                margin: 30;
-                padding: 200;
-                border: 5px 
-            }
-
 
         </style>
     </head>
     <body>
-        <h1>Welcome to my website</h1>
+        <h1>About Me</h1>
         <nav class="nav-bar">
-            <img class="navicon" src="images/favicon.ico" height="40px" width="40px" style="vertical-align:middle">
+            <img id="navicon" src="images/favicon.ico" onclick="location.href='home.html';">
             <button class="button" onclick="location.href='home.html';">Home</button>
             <button class="button" onclick="location.href='contact.html';">Contact</button>
-            <button class="button" onclick="location.href='home.html';">About</button>
+            <button class="button" onclick="location.href='home.html';">About Me</button>
 
         </nav>
         <ul class="text">
-            <p>Hi! My name is Amy. I'm a 17 year old transfem Gamer, Programmer, Tech Tinker and everything in between.</p>
-            <p>This website was born out of my dire need for a personal project, expect bugs, screenreaders will NOT work, and insane amounts of terrible code</p>
+            <p>Hi! My name is Amy. I'm a 17 year old transfem gamer, programmer, tech tinker and everything in between.</p>
+            <p>This website was born out of my dire need for a personal project, expect bugs, screenreaders will NOT work, and enough bad code to earn me my own personal space in developer hell</p>
             <p>This was made in one day, I had little to no prior knowledge of html or CSS please go easy on me :P (It is also open source on my GitHub)</p>
+            <div style="padding-top:15px">
             <p>Some key facts about me at the moment are:</p>
+            </div>
         </ul>
-        <ul>
-            <li class="list">Using CachyOS GNU/Linux</li>
-            <li class="list">17 years old</li> 
-            <li class="list">Discord Degenerate™️</li>
-            <li class="list">Currently have an interest in html and css (this means this website will change and break a lot)</li>
+        <ul class="aboutme">
+            <li class="list">Using CachyOS GNU/Linux with KDE Plasma 6.0!</li>
+            <li class="list">17 years old</li>
+            <li class="list">Currently have an interest in HTML and CSS (This means this website will change and break a lot!)</li>
             <li class="list">My favorite games are Omori, UNDERTALE, Minecraft, Celeste, Ultrakill, Project Zomboid, Subnautica, and Valheim</li>
             <li class="list">Computer specs should hopefully be included somewhere on this page</li>
             <li class="list">Would like to learn more about Java, JavaScript, Rust and HTML/CSS</li>
-            <li class="list">I really enjoy collecting Monster Energy cans and vinyl of my favorite albums</li>
-            <li class="list">My favorite artists/bands right now are Heaven Pierce Her, Arcade Fire, Mr Kitty, 100 Gecs, Kordhell, Peter Gabriel and C418</li>
-
+            <li class="list">Enjoys collecting Monster Energy cans and vinyl of my favorite albums</li>
+            <li class="list">My favorite artists/bands right now are Heaven Pierce Her, Arcade Fire, Mr Kitty, 100 Gecs, Kordhell, Peter Gabriel, Daft Punk and C418</li>
+            <li class="list">I would love to setup a personal blog on this website to share my thoughts and any wacky projects i'm working on</li>
         </ul>
     </body>
 </html> 
