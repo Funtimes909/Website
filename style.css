@@ -16,7 +16,7 @@
     90% { color: violet};
     100% { color: red}; }
 
-h1 {
+.rgb {
     animation: rainbow 8s infinite;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: auto;
@@ -54,23 +54,21 @@ button:hover {
 .navbar {
     background-color: #161515;
     overflow: hidden;
-    margin: 40px;
+    margin: 10px;
     padding-bottom: 15px;
     padding-top: 15px;
     vertical-align: middle;
     border-radius: 10px;
-    border: solid darkred;
+    border: solid purple;
 }
 
 .navtitle {
     animation: funtimes909 32s infinite;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0px;
     text-align: center;
     vertical-align: middle;
     overflow: hidden;
     display: inline-block;
-    padding-left: 1px;
     padding-right: 10px;
     cursor: pointer;
 }
@@ -80,5 +78,25 @@ button:hover {
     margin: 25px;
     padding: 10px;
     font-size: larger;
+    text-align: center;
+}
+
+#clock {
+    animation: funtimes909 32s infinite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    float: right;
+    font-size: xx-large;
+    vertical-align: center;
+    padding: 20px;
+    padding-right: 30px;
+    margin: auto;
+    border-width: 10%;
+}
+
+#buttons {
+    display: inline-block;
+    margin: center;
     text-align: center;
 }
