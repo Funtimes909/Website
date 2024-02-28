@@ -4,6 +4,7 @@
         <title>Funtimes909's Website</title>
         <!--favion-->
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="clock.js"></script>
         <link rel="stylesheet" href="style.css">
         <style>
             /*Styling*/
@@ -25,23 +26,24 @@
                 margin: 25px;
                 padding: 10px;
             }
-
         </style>
     </head>
     <body>
-        <h1>About Me</h1>
+        <h1 class="rgb">About Me</h1>
         <nav class="navbar">
             <img id="navicon" src="images/avatar.gif" onclick="location.href='home.html';">
             <h2 class="navtitle">Funtimes909</h2>
-            <button class="button" onclick="location.href='home.html';">Home</button>
-            <button class="button" onclick="location.href='contact.html';">Contact Me</button>
-            <button class="button" onclick="location.href='home.html';">About Me</button>
-
+            <div id="buttons">
+                <button class="button" onclick="location.href='home.html';">Home</button>
+                <button class="button" onclick="location.href='contact.html';">Contact Me</button>
+                <button class="button" onclick="location.href='about.html';">About Me</button>
+            </div>
+            <div id="clock"></div>
         </nav>
         <ul class="text">
             <p>Hi! My name is Amy. I'm a 17 year old transfem gamer, programmer, tech tinker and everything in between.</p>
             <p>This website was born out of my dire need for a personal project, expect bugs, screenreaders will NOT work, and enough bad code to earn me my own personal space in developer hell</p>
-            <p>This was made in one day, I had little to no prior knowledge of html or CSS please go easy on me :P (It is also open source on my GitHub)</p>
+            <p>This was made in one day, I had little to no prior knowledge of html or CSS please go easy on me :P (It is also open source on my <a href="https://github.com/Funtimes909/Website">GitHub</a>)</p>
             <div style="padding-top:15px">
             <p>Some key facts about me at the moment are:</p>
             </div>
