@@ -4,14 +4,13 @@
         <title>Funtimes909's Website</title>
         <!--favion-->
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
         <link rel="stylesheet" href="style.css">
         <style>
             /*Styling*/
             .list {
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 margin: auto;
-                padding: 16x;
+                padding: 20x;
             }
 
             p {
@@ -19,19 +18,25 @@
                 margin: auto;
                 padding: 16x;
             }
+
             .nav-bar {
-                background-color: #2e2d2d;
+                background-color: #161515;
                 overflow: hidden;
-                margin: auto;
-                padding: 32px;
-
+                margin: center;
+                padding-bottom: 15px;
+                padding-top: 15px;
             }
-            .nav-bar-buttons {
 
+            .text {
+                list-style-type: none;
+                margin: 50;
+                padding: 50; 
             }
-            .nav-bar .nav-bar-buttons:hover {
-                background-color: #ddd;
-                color: black; 
+
+            .navicon {
+                margin: 30;
+                padding: 200;
+                border: 5px 
             }
 
 
@@ -40,16 +45,18 @@
     <body>
         <h1>Welcome to my website</h1>
         <nav class="nav-bar">
+            <img class="navicon" src="images/favicon.ico" height="40px" width="40px" style="vertical-align:middle">
             <button class="button" onclick="location.href='home.html';">Home</button>
             <button class="button" onclick="location.href='contact.html';">Contact</button>
             <button class="button" onclick="location.href='home.html';">About</button>
+
         </nav>
-
-        <p>Hi! My name is Amy. I'm a 17 year old transfem Gamer, Programmer, Tech Tinker and everything in between.</p>
-        <p>This website was born out of my dire need for a personal project, expect bugs, screenreaders will NOT work, and insane amounts of terrible code</p>
-        <p>This was made in one day, I had little to no prior knowledge of html or CSS please go easy on me :P (It is also open source on my GitHub)</p>
-        <p>Some key facts about me at the moment are:</p>
-
+        <ul class="text">
+            <p>Hi! My name is Amy. I'm a 17 year old transfem Gamer, Programmer, Tech Tinker and everything in between.</p>
+            <p>This website was born out of my dire need for a personal project, expect bugs, screenreaders will NOT work, and insane amounts of terrible code</p>
+            <p>This was made in one day, I had little to no prior knowledge of html or CSS please go easy on me :P (It is also open source on my GitHub)</p>
+            <p>Some key facts about me at the moment are:</p>
+        </ul>
         <ul>
             <li class="list">Using CachyOS GNU/Linux</li>
             <li class="list">17 years old</li> 
