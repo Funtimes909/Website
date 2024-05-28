@@ -100,3 +100,14 @@
     margin: center;
     text-align: center;
 }
+
+#badges {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+}
+
+.badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
