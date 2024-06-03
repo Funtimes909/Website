@@ -10,4 +10,4 @@ function updateClock() {
   }
 
 setInterval(updateClock, 1000);
-updateClock();
+window.addEventListener("load", function() { updateClock() });
