@@ -11,3 +11,4 @@ function updateClock() {
 
 setInterval(updateClock, 1000);
 window.addEventListener("load", function() { updateClock() });
+// lol this doesn't even display my correct timezone it displays the browsers local time
