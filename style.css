@@ -41,10 +41,11 @@ body {
     background-color: var(--base);
     height: 100%;
     margin: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(900px, 80%);
     border-radius: 10px;
-    border: solid 3px var(--rosewater)
+    border: solid 4px var(--rosewater)
 }
 
 .header {
@@ -52,6 +53,7 @@ body {
     border-radius: 3px;
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #webname {
@@ -175,7 +177,6 @@ body {
     margin: -2px;
 }
 
-
 .webring {
     margin-bottom: auto;
     font-size: 16px;
@@ -187,6 +188,10 @@ body {
     gap: 3px;
 }
 
+.webring a {
+    color: var(--rosewater);
+}
+
 #random {
     display: flex;
     justify-content: center;
@@ -196,7 +201,8 @@ body {
 .message {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 30px;    
+    margin-top: 30px;
+    color: var(--rosewater)
 }
 
 #license {
@@ -208,4 +214,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
+}
+
+.footer a {
+    color: var(--rosewater);
 }
